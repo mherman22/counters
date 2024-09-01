@@ -131,7 +131,7 @@ public class CounterView extends JFrame implements Observer, ActionListener {
         CounterView cv4 = new CounterView(acnt);
 
         //sequence counter
-        Counter act = new SequenceCounter(new String[]{"herman", "odor", "maiko", "junta", "uganda"});
+        Counter act = new SequenceCounter(Arrays.asList(new String[]{"herman", "odor", "maiko", "junta", "uganda"}));
         CounterView cv5 = new CounterView(act);
     }
 }
